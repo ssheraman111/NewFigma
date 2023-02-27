@@ -1,13 +1,67 @@
 .h2ofmain {
   font-family: sans-serif;
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 900;
   line-height: 175px;
   letter-spacing: 0.05em;
   text-align: left;
   color: white;
+  margin-top: 100px;
 }
 body {
   background-color: black;
   color: white;
+  margin-left: 200px;
+}
+.mainImg {
+  display: flex;
+  align-items: flex-end;
+  margin: 0;
+  margin-left: 690px;
+  width: 400px;
+  margin-top: -280px;
+}
+.main-arrow {
+  width: 150px;
+  margin-left: 10px;
+  margin-top: 10px;
+  z-index: -1;
+  position: absolute;
+}
+.main-btn {
+  background: rgb(44, 43, 136);
+  background: linear-gradient(
+    90deg,
+    rgba(44, 43, 136, 1) 0%,
+    rgba(252, 69, 100, 1) 100%
+  );
+  color: white;
+  padding: 7px;
+  border-radius: 10px;
+  margin-left: 170px;
+}
+.main-elipse {
+  display: flex;
+  position: absolute;
+  z-index: -1;
+  margin-top: -130px;
+  width: 140px;
+  margin-left: 270px;
+}
+.main-best {
+  width: 100px;
+  margin-left: 300px;
+  margin-top: -130px;
+  display: flex;
+  position: absolute;
+}
+.pofmain {
+  font-size: 30px;
+  font-family: sans-serif;
+  margin-top: -40px;
+}
+.spanofmain {
+  font-size: 15px;
+  font-family: sans-serif;
+  margin-top: 150px;
 }
