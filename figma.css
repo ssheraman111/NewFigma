@@ -1,3 +1,4 @@
+
 footer {
   display: flex;
   background-color: #08061f;
@@ -43,4 +44,113 @@ footer {
 
 .colones > p {
   font-size: 14px;
+=======
+.h2ofmain {
+  font-family: sans-serif;
+  font-size: 50px;
+  font-weight: 900;
+  line-height: 175px;
+  letter-spacing: 0.05em;
+  text-align: left;
+  color: white;
+  margin-top: 100px;
+}
+body {
+  background-color: black;
+  color: white;
+}
+.mainImg {
+  display: flex;
+  align-items: flex-end;
+  margin: 0;
+  margin-left: 690px;
+  width: 400px;
+  margin-top: -280px;
+}
+.main-arrow {
+  width: 150px;
+  margin-left: 10px;
+  margin-top: 10px;
+  z-index: -1;
+  position: absolute;
+}
+.main-btn {
+  background: rgb(44, 43, 136);
+  background: linear-gradient(
+    90deg,
+    rgba(44, 43, 136, 1) 0%,
+    rgba(252, 69, 100, 1) 100%
+  );
+  color: white;
+  padding: 7px;
+  border-radius: 10px;
+  margin-left: 170px;
+}
+.main-elipse {
+  display: flex;
+  position: absolute;
+  z-index: -1;
+  margin-top: -130px;
+  width: 140px;
+  margin-left: 270px;
+}
+.main-best {
+  width: 100px;
+  margin-left: 300px;
+  margin-top: -130px;
+  display: flex;
+  position: absolute;
+}
+.pofmain {
+  font-size: 30px;
+  font-family: sans-serif;
+  margin-top: -40px;
+}
+.spanofmain {
+  font-size: 15px;
+  font-family: sans-serif;
+  margin-top: 150px;
+}
+/* emir css */
+.emir-container {
+  display: flex;
+  justify-content: center;
+}
+.block-1,
+.block-2,
+.block-3,
+.block-4 {
+  width: 227px;
+  margin: 0 5%;
+  margin-top: 3%;
+}
+.tipa-br {
+  display: flex;
+  justify-content: center;
+}
+.tipa-br > div {
+  width: 25%;
+  height: 3px;
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 152, 1) 0%,
+    rgba(138, 69, 252, 1) 100%
+  );
+  margin-top: 4%;
+}
+.spanka {
+  position: absolute;
+  margin-left: 1%;
+  margin-top: 1%;
+}
+.h2-emir {
+  margin-top: 3%;
+  margin-left: 5%;
+}
+.main-body {
+  margin-left: 11%;
+  margin-bottom: 4%;
+
 }
