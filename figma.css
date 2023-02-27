@@ -1,0 +1,46 @@
+footer {
+  display: flex;
+  background-color: #08061f;
+  color: white;
+  height: 331px;
+}
+
+.left-side {
+  width: 30%;
+}
+
+.title__img > img {
+  margin: 2rem;
+  width: 20%;
+}
+
+.camerzai_img > img {
+  margin-top: 1rem;
+  margin-left: 2rem;
+  width: 30%;
+}
+
+.elements {
+  margin-left: 2rem;
+  margin-top: 8px;
+}
+
+.left__item {
+  margin-top: 3rem;
+  margin-left: 2rem;
+}
+
+.right__blocks {
+  display: flex;
+  margin-top: 2rem !important;
+  margin: 4rem;
+}
+
+.colones {
+  margin-left: 5rem;
+  line-height: 2;
+}
+
+.colones > p {
+  font-size: 14px;
+}
