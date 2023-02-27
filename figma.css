@@ -11,3 +11,41 @@ body {
   background-color: black;
   color: white;
 }
+/* emir css */
+.emir-container {
+  display: flex;
+  justify-content: center;
+}
+.block-1,
+.block-2,
+.block-3,
+.block-4 {
+  width: 227px;
+  margin: 0 5%;
+  margin-top: 3%;
+}
+.tipa-br {
+  display: flex;
+  justify-content: center;
+}
+.tipa-br > div {
+  width: 25%;
+  height: 3px;
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 152, 1) 0%,
+    rgba(138, 69, 252, 1) 100%
+  );
+  margin-top: 4%;
+}
+span {
+  position: absolute;
+  margin-left: 1%;
+  margin-top: 1%;
+}
+.h2-emir {
+  margin-top: 3%;
+  margin-left: 5%;
+}
